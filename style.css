@@ -354,6 +354,14 @@ footer a:visited {
         display: flex; /* Mostra o menu quando estiver ativo */
     }
 
+    .nav-menu a{
+        display: block; /* Transforma o link em bloco */
+        padding: 10px 1rem; /*Um espaço maior de toque*/
+        color:var(--cor-primaria-fonte);
+        text-decoration: none;
+        font-size: 1.2em; /*Tamanho do texto do menu*/
+    }
+
     #apresentacao .apresentacao-container {
         flex-direction: column;
         text-align: center;
